@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing / Playwright
+coverage/
+.playwright-mcp/
+.tmp-chrome/
+.tmp-chrome-*/
+
+# Next.js build and export
+.next/
+out/
+
+# Vercel
+.vercel/
+
+# Environment and local configs
+.env*
+!.env.example
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+*.log
+*.tsbuildinfo
+
+# Internal AI / evaluation caches
+.codex/
+.impeccable/
+.impeccable-direction-seed.txt
+assets/plates/
+CONTINUAR-EM-OUTRA-IA.md
