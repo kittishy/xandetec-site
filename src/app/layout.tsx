@@ -16,10 +16,10 @@ export const metadata: Metadata = {
     locale: 'pt-BR',
     images: [
       {
-        url: '/images/display/equipe-em-servico.jpg',
-        width: 640,
-        height: 352,
-        alt: 'XandeTEC Soluções — Equipe técnica em campo',
+        url: '/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'XandeTEC Soluções e Treinamentos — Climatização, Segurança Eletrônica e Elétrica',
       },
     ],
   },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'XandeTEC Soluções e Treinamentos',
     description: 'Climatização, segurança eletrônica e elétrica em Jaraguá do Sul e região.',
-    images: ['/images/display/equipe-em-servico.jpg'],
+    images: ['/images/og-image.jpg'],
   },
   icons: {
     icon: '/icon.png',

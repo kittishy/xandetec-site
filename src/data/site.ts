@@ -118,10 +118,10 @@ export const evidence = [
     className: 'gitem--tall',
   },
   {
-    src: '/images/display/equipe-em-servico.jpg',
-    alt: 'Técnicos da XandeTEC trabalhando em condensadora com ferramental de campo',
-    caption: 'Trabalho de campo em condensadora com manifold e carga de fluido',
-    meta: 'Trabalho Técnico',
+    src: '/images/display/projeto-condensadoras.jpg',
+    alt: 'Instalação e alinhamento de condensadoras de ar-condicionado em cobertura predial',
+    caption: 'Instalação técnica e tubulação de condensadoras em cobertura',
+    meta: 'Execução Técnica',
     className: 'gitem--wide',
   },
   {

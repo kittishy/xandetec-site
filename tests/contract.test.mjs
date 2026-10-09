@@ -101,3 +101,10 @@ test('unsubstantiated claims and internal meta-labels are removed from public UI
   assert.doesNotMatch(allSrcContent, /sem fotos genéricas/i);
   assert.doesNotMatch(allSrcContent, /conteúdo verificado no material oficial/i);
 });
+
+test('gallery items and CSS prevent mobile horizontal overflow', () => {
+  const cssPath = path.join(srcDir, 'app', 'globals.css');
+  const css = fs.readFileSync(cssPath, 'utf8');
+  assert.match(css, /grid-template-columns:\s*minmax\(0,\s*1fr\)/);
+  assert.match(css, /\.gitem\s*\{[^}]*min-width:\s*0/s);
+});

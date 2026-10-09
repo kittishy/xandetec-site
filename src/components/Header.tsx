@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 import Image from 'next/image';
-import { ArrowIcon, InstagramIcon, MenuIcon, WhatsappIcon } from './Icons';
+import { ArrowIcon, InstagramIcon, MenuIcon, PhoneIcon, WhatsappIcon } from './Icons';
 import { links, site } from '@/data/site';
 
 const navItems = [
@@ -35,7 +35,7 @@ export function Header() {
           <span className="utility__region">{site.regionLong}</span>
           <div className="utility__links">
             <a href={site.phoneTel}>
-              <WhatsappIcon width={14} height={14} />
+              <PhoneIcon width={13} height={13} />
               {site.phoneDisplay}
             </a>
             <a href={site.instagram} target="_blank" rel="noreferrer">
